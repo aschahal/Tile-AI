@@ -2,7 +2,7 @@ import heapq
 
 def get_manhattan_distance(from_state, to_state=[1, 2, 3, 4, 5, 6, 7, 0, 0]):
     """
-    TODO: implement this function. This function will not be tested directly by the grader. 
+    
 
     INPUT: 
         Two states (if second state is omitted then it is assumed that it is the goal state)

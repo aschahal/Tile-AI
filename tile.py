@@ -136,10 +136,6 @@ def solve(state, goal_state=[1, 2, 3, 4, 5, 6, 7, 0, 0]):
 
 
 if __name__ == "__main__":
-    """
-    Feel free to write your own test code here to exaime the correctness of your functions. 
-    Note that this part will not be graded.
-    """
     print_succ([2,5,1,4,0,6,7,0,3])
     print()
 

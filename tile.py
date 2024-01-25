@@ -71,12 +71,12 @@ def get_succ(state):
 
 def solve(state, goal_state=[1, 2, 3, 4, 5, 6, 7, 0, 0]):
     """
-    TODO: Implement the A* algorithm here.
+    A* algorithm here
 
     INPUT: 
         An initial state (list of length 9)
 
-    WHAT IT SHOULD DO:
+    RETURNS:
         Prints a path of configurations from initial state to goal state along  h values, number of moves, and max queue number in the format specified in the pdf.
     """
     pq = []

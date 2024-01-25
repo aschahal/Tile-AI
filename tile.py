@@ -38,8 +38,6 @@ def print_succ(state):
 
 def get_succ(state):
     """
-    
-
     INPUT: 
         A state (list of length 9)
 

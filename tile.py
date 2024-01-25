@@ -27,7 +27,7 @@ def print_succ(state):
     INPUT: 
         A state (list of length 9)
 
-    WHAT IT DOES:
+    RETURNS:
         Prints the list of all the valid successors in the puzzle. 
     """
     succ_states = get_succ(state)
@@ -38,7 +38,7 @@ def print_succ(state):
 
 def get_succ(state):
     """
-    TODO: implement this function.
+    
 
     INPUT: 
         A state (list of length 9)

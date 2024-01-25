@@ -42,7 +42,7 @@ def get_succ(state):
         A state (list of length 9)
 
     RETURNS:
-        A list of all the valid successors in the puzzle (don't forget to sort the result as done below). 
+        A list of all the valid successors in the puzzle, while in a sorted format. 
     """
     succ_states = []
     empty_indices = [i for i, x in enumerate(state) if x == 0] # Find indices of empty spaces
@@ -77,7 +77,7 @@ def solve(state, goal_state=[1, 2, 3, 4, 5, 6, 7, 0, 0]):
         An initial state (list of length 9)
 
     RETURNS:
-        Prints a path of configurations from initial state to goal state along  h values, number of moves, and max queue number in the format specified in the pdf.
+        Prints a path of configurations from initial state to goal state along  h values, number of moves, and max queue number in specified format.
     """
     pq = []
     initial_h = get_manhattan_distance(state, goal_state)
